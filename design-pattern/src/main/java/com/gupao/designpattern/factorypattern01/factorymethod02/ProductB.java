@@ -1,0 +1,15 @@
+package com.gupao.designpattern.factorypattern01.factorymethod02;
+
+/**
+ * describe:
+ *
+ * @author rainly
+ * @date 2020/4/5
+ * @time 4:06 下午
+ */
+public class ProductB implements Product {
+    @Override
+    public void work() {
+        System.out.println("ProductB");
+    }
+}
